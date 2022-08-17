@@ -42,3 +42,6 @@ var words = ['seal', 'dog', 'scorpion', 'orangutan', 'salamander'];
 var sWords = words.filter(function(word){
     return word.startsWith('s');
 });
+
+var firstThree = words.slice(0,2);
+console.log(firstThree);
